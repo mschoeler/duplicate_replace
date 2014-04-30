@@ -21,7 +21,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 Usage: dreplace PATH
-Use duplicate removal to search for duplicates under the provided PATH.
+Use duplicate removal to search for duplicates under the provided PATH ignoring SymLinks.
 Duplicates are determined by using the MD5 Hash of the filecontent ignoring the time stamp.
 Duplicates are removed by creating hard links to the first file found with the same hash.
 Also orphaned hard links are considered: This way if one file with inode I_old is hardlinked 
