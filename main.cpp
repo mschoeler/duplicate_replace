@@ -28,6 +28,8 @@ recalulating hash-sums.
 Replacing same content files with hardlinks is risky in environments where files are getting changed, since this
 will change all hardlinked files as well.
 Thus, do only use dreplace on static file directories like backups, image databases.
+
+Since hardlinks are being used this program only works on UNIX filesystems supporting hardlinks (f.e. ext4)
 ****************************************************************************************** 
 */
 
