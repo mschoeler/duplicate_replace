@@ -33,3 +33,7 @@ will change all hardlinked files as well.
 Thus, do only use dreplace on static file directories like backups, image databases.
 
 Since hardlinks are being used this program only works on UNIX filesystems supporting hardlinks (f.e. ext4)
+
+Dependecies:
+Qt4
+OpenSSL
